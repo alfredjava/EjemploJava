@@ -6,7 +6,25 @@ public class Persona {
     private String apellido;
     private String direccion;
 
+    public String getNombre() {
+        return nombre;
+    }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
 
     public Persona(String nombre, String apellido, String direccion) {
 
@@ -14,5 +32,8 @@ public class Persona {
 
     public Persona() {
 
+    }
+
+    public void setApellido(String barrios) {
     }
 }

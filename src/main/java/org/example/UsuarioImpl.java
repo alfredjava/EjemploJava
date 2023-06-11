@@ -3,8 +3,8 @@ package org.example;
 public class UsuarioImpl implements UsuarioServices{
     @Override
     public String registrarUsuario(Usuario usuario) {
-        usuario.setCodigo("codigo");
-        //usuario.setApellido("apellido");
+        usuario.setCodigo("codigo1");
+        usuario.setApellido("apellido");
         return usuario.getCodigo();
     }
 
